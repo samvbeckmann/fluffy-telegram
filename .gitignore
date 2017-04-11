@@ -87,3 +87,18 @@ ENV/
 
 # Rope project settings
 .ropeproject
+*.aux
+*.fdb
+*.fls
+*.synctex.gz
+*.fdb_latexmk
+
+# Project speciic
+Unsupervised_Clustering/generator/Driver.java
+Unsupervised_Clustering/generator/GaussianRandomGenerator.java
+Unsupervised_Clustering/generator/out
+Unsupervised_Clustering/generator
+Unsupervised_Clustering/datasets
+*.out
+*.dat
+*.dSYM
