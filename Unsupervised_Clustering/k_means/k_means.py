@@ -1,4 +1,6 @@
 import random
+import math
+import numpy
 
 def tsv_to_features(tsv_string):
     """Converts a tsv string into a map object of lists of features."""
@@ -83,6 +85,18 @@ def recalculate_means(labels, training_set, old_means):
             means[k][j] /= nums[k]
     return means
 
+def get_accuracy(means, std_devs, labels, training_set, difference):
+    maxes = {}
+    for j in range(len(means)):
+        for i in range(len(training_set)):
+            diff = math.log(1/math.sqrt(2*std_devs[j]*math.pi)) + (-difference(training_set[i], means[j])**2)/2*std_devs[j]**2
+            if i not in maxes:
+                maxes[i] = diff
+            else:
+                maxes[i] = max(maxes[i], diff)
+    return numpy.mean(list(maxes.values()))
+ 
+
 def k_means(k, training_set, norm_calc):
     """Given a k, a training set, and a vector difference function, cluster.
 
@@ -92,12 +106,15 @@ def k_means(k, training_set, norm_calc):
     labels = []
     means = select_original_means(k, training_set)
     #means = generate_k_means(k, get_extreme_features(training_set))
+    count = 0
     while True:
         labels = label_points(means, training_set, norm_calc)
         new_means = recalculate_means(labels, training_set, means)
+        count += 1
         if means == new_means:
             break
         means = new_means
     std_devs = get_std_dev(means, labels, training_set, norm_calc)
-    return (means, std_devs)
+    acc = get_accuracy(means, std_devs, labels, training_set, norm_calc)
+    return (means, std_devs, count, acc)
     #eturn [(means[i], std_devs[i]) for i in means]
