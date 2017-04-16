@@ -115,14 +115,14 @@ std::pair<std::vector<SupportVector>, double> train(double C, double tol, int ma
 				num_changed++;
 			}
 		}
-		std::cout << "Iterations: " << ++count << "\r" << std::flush;
+		// std::cout << "Iterations: " << ++count << "\r" << std::flush;
 		if (num_changed == 0) {
 				passes++;
 		} else {
 				passes = 0;
 		}
 	}
-	std::cout << std::endl;
+	// std::cout << std::endl;
 
 	std::vector<SupportVector> supports;
 	for (int i = 0; i < m; i++) {

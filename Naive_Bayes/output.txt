@@ -1,0 +1,9 @@
+Train sizes
+362606
+901315
+Test sizes
+10
+10
+Results summary (mean	std_dev):
+0.986	0.117490425142
+0.532	0.498974949271

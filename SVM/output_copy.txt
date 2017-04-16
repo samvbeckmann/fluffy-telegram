@@ -1,0 +1,55 @@
+../../Datasets/pop_failures.tsv 50
+Running 50 trials.
+Examples: 540	Features: 18
+Test size: 108
+Valid size: 54
+Train size: 378
+Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Trial 8/50Trial 9/50Trial 10/50Trial 11/50Trial 12/50Trial 13/50Trial 14/50Trial 15/50Trial 16/50Trial 17/50Trial 18/50Trial 19/50Trial 20/50Trial 21/50Trial 22/50Trial 23/50Trial 24/50Trial 25/50Trial 26/50Trial 27/50Trial 28/50Trial 29/50Trial 30/50Trial 31/50Trial 32/50Trial 33/50Trial 34/50Trial 35/50Trial 36/50Trial 37/50Trial 38/50Trial 39/50Trial 40/50Trial 41/50Trial 42/50Trial 43/50Trial 44/50Trial 45/50Trial 46/50Trial 47/50Trial 48/50Trial 49/50Trial 50/50Ran 50 trials!
+
+Results:
+Accuracy mean: 94.7593%
+Accuracy std dev: 2.09194%
+../../Datasets/banknote_authentication.tsv 50
+Running 50 trials.
+Examples: 1372	Features: 4
+Test size: 274
+Valid size: 137
+Train size: 961
+Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Trial 8/50Trial 9/50Trial 10/50Trial 11/50Trial 12/50Trial 13/50Trial 14/50Trial 15/50Trial 16/50Trial 17/50Trial 18/50Trial 19/50Trial 20/50Trial 21/50Trial 22/50Trial 23/50Trial 24/50Trial 25/50Trial 26/50Trial 27/50Trial 28/50Trial 29/50Trial 30/50Trial 31/50Trial 32/50Trial 33/50Trial 34/50Trial 35/50Trial 36/50Trial 37/50Trial 38/50Trial 39/50Trial 40/50Trial 41/50Trial 42/50Trial 43/50Trial 44/50Trial 45/50Trial 46/50Trial 47/50Trial 48/50Trial 49/50Trial 50/50Ran 50 trials!
+
+Results:
+Accuracy mean: 100%
+Accuracy std dev: 0%
+../../Datasets/diagnostic.tsv 50
+Running 50 trials.
+Examples: 569	Features: 30
+Test size: 113
+Valid size: 56
+Train size: 400
+Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Trial 8/50Trial 9/50Trial 10/50Trial 11/50Trial 12/50Trial 13/50Trial 14/50Trial 15/50Trial 16/50Trial 17/50Trial 18/50Trial 19/50Trial 20/50Trial 21/50Trial 22/50Trial 23/50Trial 24/50Trial 25/50Trial 26/50Trial 27/50Trial 28/50Trial 29/50Trial 30/50Trial 31/50Trial 32/50Trial 33/50Trial 34/50Trial 35/50Trial 36/50Trial 37/50Trial 38/50Trial 39/50Trial 40/50Trial 41/50Trial 42/50Trial 43/50Trial 44/50Trial 45/50Trial 46/50Trial 47/50Trial 48/50Trial 49/50Trial 50/50Ran 50 trials!
+
+Results:
+Accuracy mean: 62.7434%
+Accuracy std dev: 4.28542%
+../../Datasets/diabetes.tsv 50
+Running 50 trials.
+Examples: 768	Features: 8
+Test size: 153
+Valid size: 76
+Train size: 539
+Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Trial 8/50Trial 9/50Trial 10/50Trial 11/50Trial 12/50Trial 13/50Trial 14/50Trial 15/50Trial 16/50Trial 17/50Trial 18/50Trial 19/50Trial 20/50Trial 21/50Trial 22/50Trial 23/50Trial 24/50Trial 25/50Trial 26/50Trial 27/50Trial 28/50Trial 29/50Trial 30/50Trial 31/50Trial 32/50Trial 33/50Trial 34/50Trial 35/50Trial 36/50Trial 37/50Trial 38/50Trial 39/50Trial 40/50Trial 41/50Trial 42/50Trial 43/50Trial 44/50Trial 45/50Trial 46/50Trial 47/50Trial 48/50Trial 49/50Trial 50/50Ran 50 trials!
+
+Results:
+Accuracy mean: 65.1895%
+Accuracy std dev: 4.03287%
+../../Datasets/two-spirals.tsv 50
+Running 50 trials.
+Examples: 194	Features: 2
+Test size: 38
+Valid size: 19
+Train size: 137
+Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Trial 8/50Trial 9/50Trial 10/50Trial 11/50Trial 12/50Trial 13/50Trial 14/50Trial 15/50Trial 16/50Trial 17/50Trial 18/50Trial 19/50Trial 20/50Trial 21/50Trial 22/50Trial 23/50Trial 24/50Trial 25/50Trial 26/50Trial 27/50Trial 28/50Trial 29/50Trial 30/50Trial 31/50Trial 32/50Trial 33/50Trial 34/50Trial 35/50Trial 36/50Trial 37/50Trial 38/50Trial 39/50Trial 40/50Trial 41/50Trial 42/50Trial 43/50Trial 44/50Trial 45/50Trial 46/50Trial 47/50Trial 48/50Trial 49/50Trial 50/50Ran 50 trials!
+
+Results:
+Accuracy mean: 74.0526%
+Accuracy std dev: 7.60904%

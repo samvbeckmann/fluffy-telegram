@@ -91,7 +91,8 @@ int main(int argc, char* argv[]) {
     	// Perform training & testing (note that currently the valid set is unused)
     	double tests = 0;
     	double correct = 0;
-    	SMO::kernel chosenKernel = SMO::gaussianKernel;//SMO::polyKernel(0, 1);
+        // SMO::gaussianKernel or SMO::polyKernel(increment, degree)
+    	SMO::kernel chosenKernel = SMO::gaussianKernel;
     	auto results = SMO::train(1E10, 1E-7, 10, train, yTrain, chosenKernel);
     	for (int i = 0; i < testing.size(); i++) {
     		double guess = SMO::predict(testing[i], results.first, results.second, chosenKernel);
