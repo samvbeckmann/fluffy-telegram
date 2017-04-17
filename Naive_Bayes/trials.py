@@ -16,8 +16,8 @@ with open('../../Datasets/Shakespeare.txt') as s:
 mallory_words = mallory.split()
 shakespeare_words = shakespeare.split()
 
-m_test_size = math.ceil(len(mallory_words)*0.0000266)
-s_test_size = math.ceil(len(shakespeare_words)*0.0000106666)
+m_test_size = 10
+s_test_size = 10
 
 print('Train sizes')
 print(len(mallory_words) - m_test_size)

@@ -45,9 +45,11 @@ class Bayes_Classifier:
                     likelihoods[label] += math.log(vocabulary[label][word]/
                                                    self.word_counts[label])
                 else:
-                    likelihoods[label] += math.log(1.0/len(vocabulary[label]))
+                    likelihoods[label] += math.log(1.0/self.word_counts[label])
         if getprobs:
-            return {k: math.exp(v) for (k, v) in likelihoods.items()}
+            # normalize
+            probs = {k: math.exp(v) for (k, v) in likelihoods.items()}
+            return {k: v/sum(probs.values()) for (k,v) in probs.items()}
         else:
             return list(filter(lambda x: likelihoods[x] ==
                 max(likelihoods.values()), likelihoods))
