@@ -93,12 +93,15 @@ ENV/
 *.synctex.gz
 *.fdb_latexmk
 
-# Project speciic
+# Project specific
 Unsupervised_Clustering/generator/Driver.java
 Unsupervised_Clustering/generator/GaussianRandomGenerator.java
 Unsupervised_Clustering/generator/out
 Unsupervised_Clustering/generator
 Unsupervised_Clustering/datasets
+Reinforcement_Learning/out
 *.out
 *.dat
+*.iml
+*.idea
 *.dSYM

@@ -1,0 +1,57 @@
+../../../Datasets/spectf.tsv 50
+Running 50 trials.
+Examples: 187	Features: 45
+Test size: 37
+Valid size: 18
+Train size: 132
+Ran 50 trials!
+
+Results:
+Accuracy mean: 39.4054%
+Accuracy std dev: 39.4376%
+../../../Datasets/banknote_authentication.tsv 50
+Running 50 trials.
+Examples: 1372	Features: 4
+Test size: 274
+Valid size: 137
+Train size: 961
+Ran 50 trials!
+
+Results:
+Accuracy mean: 99.5985%
+Accuracy std dev: 0.457298%
+../../../Datasets/diagnostic.tsv 50
+Running 50 trials.
+Examples: 569	Features: 30
+Test size: 113
+Valid size: 56
+Train size: 400
+Ran 50 trials!
+
+Results:
+Accuracy mean: 63.2743%
+Accuracy std dev: 22.8711%
+../../../Datasets/diabetes.tsv 50
+Running 50 trials.
+Examples: 768	Features: 8
+Test size: 153
+Valid size: 76
+Train size: 539
+Ran 50 trials!
+
+Results:
+Accuracy mean: 52.4052%
+Accuracy std dev: 12.6032%
+../../../Datasets/pop_failures.tsv 50
+Running 50 trials.
+Examples: 540	Features: 18
+Test size: 108
+Valid size: 54
+Train size: 378
+Ran 50 trials!
+
+Results:
+Accuracy mean: 94.2593%
+Accuracy std dev: 1.80496%
+
+%%%Did not terminate (even once) for the two spirals)%%%

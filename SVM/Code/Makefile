@@ -1,4 +1,4 @@
-objects := runner.cpp SVM/SMO.cpp
+objects := runner.cpp SMO.cpp
 CFLAGS=-std=c++14 -O3 -larmadillo
 
 analyzermake: $(objects)

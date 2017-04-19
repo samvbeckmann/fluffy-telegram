@@ -53,3 +53,14 @@ Trial 1/50Trial 2/50Trial 3/50Trial 4/50Trial 5/50Trial 6/50Trial 7/50Tri
 Results:
 Accuracy mean: 74.0526%
 Accuracy std dev: 7.60904%
+../Datasets/spectf.tsv 50
+Running 50 trials.
+Examples: 187	Features: 45
+Test size: 37
+Valid size: 18
+Train size: 132
+Ran 50 trials!
+
+Results:
+Accuracy mean: 91.4595%
+Accuracy std dev: 4.26856%
