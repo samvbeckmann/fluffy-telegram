@@ -19,10 +19,10 @@ struct SupportVector {
 };
 
 int get_rand_without(int max, int without) {
-	int choice;
-	do {
-		choice = rand() % max;
-	} while (choice == without);
+	int choice = rand() % (max - 1);
+	if (choice >= without) {
+		choice += 1;
+	}
 
 	return choice;
 }
